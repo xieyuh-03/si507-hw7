@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>About this site</title>
+    </head>
+    <body>
+        <h1>Hello, {{name}} !!</h1>
+        <div>
+        <p>
+            Todays technology headlines are: 
+        </p>
+        <ul>
+
+            {% for item in title_list %}
+                <li>{{item}}</li>
+
+            {% endfor %}
+        </ul>
+
+        </div>
+        
+
+    </body>
+
+</html>
